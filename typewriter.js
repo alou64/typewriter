@@ -8,4 +8,4 @@ for (const char of sentence) {
   time += 100;
 };
 
-setTimeout(() => console.log('\n'), time);
+setTimeout(() => process.stdout.write('\n'), time);
